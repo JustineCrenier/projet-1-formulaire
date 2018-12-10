@@ -1,0 +1,32 @@
+.traitement{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	.wrapper{
+		border: 2px solid $firstColor;
+		border-radius: 20px;
+		padding: 30px;
+		p.verifier{
+			color: $firstColor;
+			text-decoration: underline;
+		}
+		input{
+			border: none;
+			text-align: center;
+			display: block;
+			margin: 0 auto;
+			width: 200px;
+			margin-bottom: 15px;
+			padding: 10px;
+			background-color: $firstColor;
+		}
+		a{
+			display: block;
+			text-align: center;
+			color: $firstColor;
+		}
+	}
+}

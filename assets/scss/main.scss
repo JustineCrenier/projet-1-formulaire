@@ -1,0 +1,40 @@
+@import 'variables';
+@import 'font';
+@import 'traitement';
+
+body{
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	img{
+		width: 25%;
+		object-fit: cover;
+	}
+	.radio{
+		margin-top: 25px;
+		label{
+			margin-left: 20px;
+		}
+	}
+}
+.form{
+	margin-top: -40px;
+}
+
+label,input,span,p,textarea,h2{
+	font-family: $font;
+}
+.input-field>label, span.genre{
+	color: $firstColor;
+}
+input[type="submit"]{
+	color: white;
+}
+.modal{
+	display: none;
+}
+.error{
+	color: red;
+}

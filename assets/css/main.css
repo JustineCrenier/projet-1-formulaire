@@ -1,0 +1,82 @@
+@font-face {
+  font-family: 'bellotaregular';
+  src: url("../font/Bellota-Regular-webfont.eot");
+  src: url("../font/Bellota-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("../font/Bellota-Regular-webfont.woff2") format("woff2"), url("../font/Bellota-Regular-webfont.woff") format("woff"), url("../font/Bellota-Regular-webfont.ttf") format("truetype"), url("../font/Bellota-Regular-webfont.svg#bellotaregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+.traitement {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100vh; }
+  .traitement .wrapper {
+    border: 2px solid #15c5bd;
+    border-radius: 20px;
+    padding: 30px; }
+    .traitement .wrapper p.verifier {
+      color: #15c5bd;
+      text-decoration: underline; }
+    .traitement .wrapper input {
+      border: none;
+      text-align: center;
+      display: block;
+      margin: 0 auto;
+      width: 200px;
+      margin-bottom: 15px;
+      padding: 10px;
+      background-color: #15c5bd; }
+    .traitement .wrapper a {
+      display: block;
+      text-align: center;
+      color: #15c5bd; }
+
+body {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  body img {
+    width: 25%;
+    -o-object-fit: cover;
+    object-fit: cover; }
+  body .radio {
+    margin-top: 25px; }
+    body .radio label {
+      margin-left: 20px; }
+
+.form {
+  margin-top: -40px; }
+
+label, input, span, p, textarea, h2 {
+  font-family: "bellotaregular"; }
+
+.input-field > label, span.genre {
+  color: #15c5bd; }
+
+input[type="submit"] {
+  color: white; }
+
+.modal {
+  display: none; }
+
+.error {
+  color: red; }
